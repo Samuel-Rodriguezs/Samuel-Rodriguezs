@@ -121,3 +121,5 @@ IA aplicada a workflow
 </p>
 
 <!-- banner e títulos ficam em assets/ -->
+
+<!-- títulos gerados com traço geométrico próprio -->
