@@ -1,46 +1,52 @@
-# Samuel Rodrigues
+<h1 align="center">salve, eu sou o Samuel 👋</h1>
 
-Curto resolver problema chato com código.
+<p align="center">
+  curto automação, código e qualquer coisa que economize trabalho manual.
+</p>
 
-Hoje mexo principalmente com **Python, automação, APIs e integrações**, criando ferramentas para reduzir trabalho manual e organizar fluxos que antes dependiam de muita conferência na mão.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
+  <img src="https://img.shields.io/badge/Airtable-18BFFF?style=flat-square&logo=airtable&logoColor=white" alt="Airtable">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+</p>
 
-## O que eu faço
+---
 
-- automações de tarefas repetitivas;
-- integração entre sistemas e APIs;
-- tratamento de dados e documentos;
-- scripts e ferramentas internas;
-- uso de IA em fluxos de trabalho.
+### sobre mim
 
-## Stack que mais uso
+Hoje eu mexo principalmente com **Python, automações, APIs e integrações**.
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white)
-![Airtable](https://img.shields.io/badge/Airtable-18BFFF?logo=airtable&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+Gosto de pegar processo repetitivo, planilha chata ou fluxo manual e tentar transformar em alguma coisa mais simples de usar.
 
-## Projetos
+Também venho estudando mais sobre **cybersecurity**, Git/GitHub e desenvolvimento de software no geral.
 
-Estou usando este GitHub para guardar projetos pessoais e versões demonstrativas de coisas que desenvolvo no dia a dia.
+### o que costuma aparecer por aqui
 
-Alguns projetos de trabalho passam por sanitização antes de aparecer aqui, então dados de clientes, processos, credenciais e informações internas ficam de fora.
+- automações com Python e n8n
+- integrações com APIs
+- tratamento de documentos e dados
+- ferramentas para fluxo de trabalho
+- testes com IA aplicada a automação
+- projetos pessoais que eu invento no caminho
 
-### Em destaque
+### alguns projetos
 
 **Extrator de cálculos trabalhistas**  
-Pipeline em Python para leitura, classificação e validação de informações em documentos.
+Um pipeline em Python para ler documentos, classificar informações e separar o que pode ser validado do que ainda precisa de revisão.
 
 **Publicar Projeto**  
-Uma skill para preparar cópias sanitizadas de projetos locais antes de enviar para o GitHub.
+Uma skill que eu fiz para pegar projetos locais, sanitizar dados sensíveis e preparar uma versão segura para colocar no GitHub.
 
-## No momento
+> alguns projetos nasceram de problemas reais do dia a dia. quando isso acontece, eu publico só versões com dados fictícios ou sanitizados.
 
-Estudando e praticando mais:
+### agora eu tô estudando
 
-- Python
-- APIs
-- automação
-- Git/GitHub
-- cybersecurity
+Python · APIs · Automação · Git/GitHub · Cybersecurity
+
+---
+
+<p align="center">
+  ainda arrumando esse perfil aos poucos :)
+</p>
