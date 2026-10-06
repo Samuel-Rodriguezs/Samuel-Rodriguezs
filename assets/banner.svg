@@ -1,45 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-label="Samuel — Python, automação e cybersecurity">
   <title>SAMUEL — PYTHON / AUTOMAÇÃO / CYBERSECURITY</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050508"/>
-      <stop offset="0.6" stop-color="#0a0611"/>
-      <stop offset="1" stop-color="#12081f"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".26"/>
+    <clipPath id="corte"><rect width="1600" height="420" rx="22"/></clipPath>
+    <radialGradient id="fundo" cx="0.5" cy="0.38" r="0.75">
+      <stop offset="0" stop-color="#150b26"/>
+      <stop offset="0.45" stop-color="#0a0612"/>
+      <stop offset="1" stop-color="#030305"/>
+    </radialGradient>
+    <radialGradient id="vinheta" cx="0.5" cy="0.45" r="0.72">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".75"/>
+    </radialGradient>
+    <radialGradient id="feixe" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".30"/>
       <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="nome" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ede9fe"/>
-      <stop offset="0.55" stop-color="#c4b5fd"/>
+    <radialGradient id="mascara-grade" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="some"><rect width="1600" height="420" fill="url(#mascara-grade)"/></mask>
+    <pattern id="grade" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#8b5cf6" stroke-opacity=".07"/>
+    </pattern>
+    <linearGradient id="nome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset="0.6" stop-color="#c4b5fd"/>
       <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
-    <clipPath id="corte"><rect width="1600" height="420" rx="22"/></clipPath>
-    <pattern id="grade" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#8b5cf6" stroke-opacity=".05"/>
-    </pattern>
+    <linearGradient id="horizonte" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="brilho" x="-10%" y="-40%" width="120%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="grao" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .035 0"/>
+    </filter>
   </defs>
+
   <g clip-path="url(#corte)">
-    <rect width="1600" height="420" fill="url(#bg)"/>
-    <rect width="1600" height="420" fill="url(#grade)"/>
-    <ellipse cx="800" cy="185" rx="620" ry="230" fill="url(#glow)"/>
+    <rect width="1600" height="420" fill="url(#fundo)"/>
+    <rect width="1600" height="420" fill="url(#grade)" mask="url(#some)"/>
+    <ellipse cx="800" cy="154" rx="760" ry="120" fill="url(#feixe)"/>
+    <rect width="1600" height="420" filter="url(#grao)"/>
+    <rect width="1600" height="420" fill="url(#vinheta)"/>
   </g>
 
-  <g fill="none" stroke="#8b5cf6" stroke-opacity=".55" stroke-width="2">
-    <path d="M40 76 V40 H76"/><path d="M1524 40 H1560 V76"/>
-    <path d="M40 344 V380 H76"/><path d="M1524 380 H1560 V344"/>
-  </g>
-
-  <path d="M 596.0 92.0 L 545.0 92.0 L 528.0 109.0 L 528.0 129.4 L 545.0 143.0 L 579.0 143.0 L 596.0 156.6 L 596.0 177.0 L 579.0 194.0 L 528.0 194.0 M 623.2 194.0 L 623.2 112.4 L 643.6 92.0 L 670.8 92.0 L 691.2 112.4 L 691.2 194.0 M 623.2 149.8 L 691.2 149.8 M 718.4 194.0 L 718.4 92.0 L 752.4 136.2 L 786.4 92.0 L 786.4 194.0 M 813.6 92.0 L 813.6 173.6 L 834.0 194.0 L 861.2 194.0 L 881.6 173.6 L 881.6 92.0 M 976.8 92.0 L 908.8 92.0 L 908.8 194.0 L 976.8 194.0 M 908.8 143.0 L 959.8 143.0 M 1004.0 92.0 L 1004.0 194.0 L 1072.0 194.0" fill="none" stroke="#8b5cf6" stroke-opacity=".35" stroke-width="16" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M 596.0 92.0 L 545.0 92.0 L 528.0 109.0 L 528.0 129.4 L 545.0 143.0 L 579.0 143.0 L 596.0 156.6 L 596.0 177.0 L 579.0 194.0 L 528.0 194.0 M 623.2 194.0 L 623.2 112.4 L 643.6 92.0 L 670.8 92.0 L 691.2 112.4 L 691.2 194.0 M 623.2 149.8 L 691.2 149.8 M 718.4 194.0 L 718.4 92.0 L 752.4 136.2 L 786.4 92.0 L 786.4 194.0 M 813.6 92.0 L 813.6 173.6 L 834.0 194.0 L 861.2 194.0 L 881.6 173.6 L 881.6 92.0 M 976.8 92.0 L 908.8 92.0 L 908.8 194.0 L 976.8 194.0 M 908.8 143.0 L 959.8 143.0 M 1004.0 92.0 L 1004.0 194.0 L 1072.0 194.0" fill="none" stroke="#8b5cf6" stroke-opacity=".45" stroke-width="10" filter="url(#brilho)"
+        stroke-linecap="square" stroke-linejoin="miter"/>
   <path d="M 596.0 92.0 L 545.0 92.0 L 528.0 109.0 L 528.0 129.4 L 545.0 143.0 L 579.0 143.0 L 596.0 156.6 L 596.0 177.0 L 579.0 194.0 L 528.0 194.0 M 623.2 194.0 L 623.2 112.4 L 643.6 92.0 L 670.8 92.0 L 691.2 112.4 L 691.2 194.0 M 623.2 149.8 L 691.2 149.8 M 718.4 194.0 L 718.4 92.0 L 752.4 136.2 L 786.4 92.0 L 786.4 194.0 M 813.6 92.0 L 813.6 173.6 L 834.0 194.0 L 861.2 194.0 L 881.6 173.6 L 881.6 92.0 M 976.8 92.0 L 908.8 92.0 L 908.8 194.0 L 976.8 194.0 M 908.8 143.0 L 959.8 143.0 M 1004.0 92.0 L 1004.0 194.0 L 1072.0 194.0" fill="none" stroke="url(#nome)" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
 
-  <line x1="528" y1="236" x2="648" y2="236" stroke="#8b5cf6" stroke-width="2"/>
-  <line x1="952" y1="236" x2="1072" y2="236" stroke="#8b5cf6" stroke-width="2"/>
-  <text x="800" y="290" text-anchor="middle" fill="#ddd6fe" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace"
-        font-size="24" letter-spacing="8">PYTHON / AUTOMAÇÃO / CYBERSECURITY</text>
+  <rect x="388" y="228" width="824" height="1.5" fill="url(#horizonte)"/>
+  <text x="800" y="276" text-anchor="middle" fill="#ddd6fe" fill-opacity=".9" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace"
+        font-size="23" letter-spacing="9">PYTHON / AUTOMAÇÃO / CYBERSECURITY</text>
 
-  <text x="76" y="368" fill="#a78bfa" opacity=".6" font-family="Consolas, Menlo, 'DejaVu Sans Mono', monospace" font-size="16" letter-spacing="2">~/samuel $ _</text>
+  <text x="64" y="378" fill="#a78bfa" fill-opacity=".45" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="15" letter-spacing="2">~/samuel $ _</text>
 
-  <rect x="1" y="1" width="1598" height="418" rx="21" fill="none" stroke="#8b5cf6" stroke-opacity=".22"/>
+  <rect x="1" y="1" width="1598" height="418" rx="21" fill="none" stroke="#8b5cf6" stroke-opacity=".18"/>
 </svg>

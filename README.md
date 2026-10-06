@@ -23,7 +23,7 @@
 <tr>
 <td width="50%" valign="top">
 
-<img src="./assets/titulo-sobre.svg" height="30" alt="sobre">
+<img src="./assets/titulo-sobre.svg" height="28" alt="sobre">
 
 hoje eu mexo mais com **Python, automação, APIs e integrações**.
 
@@ -34,7 +34,7 @@ no tempo livre, tô indo mais fundo em **cybersecurity**.
 </td>
 <td width="50%" valign="top">
 
-<img src="./assets/titulo-agora.svg" height="30" alt="agora">
+<img src="./assets/titulo-agora.svg" height="28" alt="agora">
 
 ```text
 > automação e integrações
@@ -50,13 +50,14 @@ no tempo livre, tô indo mais fundo em **cybersecurity**.
 
 <br>
 
-<img src="./assets/titulo-projetos.svg" height="30" alt="projetos em destaque">
+<img src="./assets/titulo-projetos.svg" height="28" alt="projetos em destaque">
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### extrator de cálculos trabalhistas
+#### prumo
+<sub>extrator de cálculos trabalhistas</sub>
 
 lê planilhas de cálculo e decisões, descobre de qual parte é cada cálculo, extrai os valores e só libera o que passa numa validação contra um gabarito. nada é gravado sozinho: sai um relatório pra revisar.
 
@@ -67,13 +68,14 @@ lê planilhas de cálculo e decisões, descobre de qual parte é cada cálculo, 
 </td>
 <td width="50%" valign="top">
 
-#### publicar projeto
+#### passe limpo
+<sub>publicação segura de projetos</sub>
 
 skill pro Claude Code que pega um projeto local, tira segredo e dado sensível, revisa imagem com OCR, faz o commit com e-mail noreply e só sobe pro GitHub depois de um `APROVADO`.
 
 `Python` `Git` `GitHub CLI` `OCR` `AES-GCM`
 
-<sub>privado por enquanto</sub>
+<sub>privado por enquanto · listas de proteção cifradas</sub>
 
 </td>
 </tr>
@@ -87,14 +89,14 @@ skill pro Claude Code que pega um projeto local, tira segredo e dado sensível, 
 <tr>
 <td width="33%" valign="top">
 
-<img src="./assets/titulo-por-aqui.svg" height="26" alt="por aqui">
+<img src="./assets/titulo-por-aqui.svg" height="28" alt="por aqui">
 
 projetos pessoais, testes, automações e versões demonstrativas do que eu monto no dia a dia.
 
 </td>
 <td width="33%" valign="top">
 
-<img src="./assets/titulo-estudando.svg" height="26" alt="estudando">
+<img src="./assets/titulo-estudando.svg" height="28" alt="estudando">
 
 cybersecurity<br>
 Git / GitHub<br>
@@ -104,13 +106,13 @@ boas práticas
 </td>
 <td width="33%" valign="top">
 
-<img src="./assets/titulo-areas.svg" height="26" alt="áreas atuais">
+<img src="./assets/titulo-curto.svg" height="28" alt="curto mexer com">
 
+Python<br>
 automação<br>
-APIs<br>
-backend<br>
-cybersecurity<br>
-Git / GitHub
+documentos<br>
+integrações<br>
+IA aplicada a workflow
 
 </td>
 </tr>
