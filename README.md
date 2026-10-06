@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Samuel Rodrigues — Python, Automação e Cybersecurity" width="100%">
+  <img src="./assets/banner.svg" alt="SAMUEL — Python / Automação / Cybersecurity" width="100%">
 </p>
 
 <p align="center">
@@ -8,111 +8,115 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
-  <img src="https://img.shields.io/badge/Airtable-18BFFF?style=flat-square&logo=airtable&logoColor=white" alt="Airtable">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Python-0d0a14?style=flat-square&logo=python&logoColor=a78bfa" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-0d0a14?style=flat-square&logo=javascript&logoColor=a78bfa" alt="JavaScript">
+  <img src="https://img.shields.io/badge/n8n-0d0a14?style=flat-square&logo=n8n&logoColor=a78bfa" alt="n8n">
+  <img src="https://img.shields.io/badge/Airtable-0d0a14?style=flat-square&logo=airtable&logoColor=a78bfa" alt="Airtable">
+  <img src="https://img.shields.io/badge/Git-0d0a14?style=flat-square&logo=git&logoColor=a78bfa" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-0d0a14?style=flat-square&logo=github&logoColor=a78bfa" alt="GitHub">
+  <img src="https://img.shields.io/badge/APIs-0d0a14?style=flat-square&logo=json&logoColor=a78bfa" alt="APIs">
 </p>
 
----
+<br>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### > sobre
+<img src="./assets/titulo-sobre.svg" height="30" alt="sobre">
 
-Hoje eu mexo principalmente com **Python, automações, APIs e integrações**.
+hoje eu mexo mais com **Python, automação, APIs e integrações**.
 
-Gosto de pegar processo repetitivo, planilha chata ou fluxo manual e transformar em alguma coisa mais simples de usar.
+gosto de pegar processo repetitivo, planilha chata ou fluxo manual e deixar mais simples de usar.
 
-Também venho estudando mais sobre **cybersecurity**, Git/GitHub e desenvolvimento de software no geral.
+no tempo livre, tô indo mais fundo em **cybersecurity**.
 
 </td>
 <td width="50%" valign="top">
 
-### > agora
+<img src="./assets/titulo-agora.svg" height="30" alt="agora">
 
-- automação e integrações
-- APIs e backend
-- tratamento de dados e documentos
-- Git/GitHub
-- cybersecurity
+```text
+> automação e integrações
+> APIs e backend
+> dados e documentos
+> Git / GitHub
+> cybersecurity
+```
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## > projetos em destaque
+<img src="./assets/titulo-projetos.svg" height="30" alt="projetos em destaque">
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Extrator de cálculos trabalhistas
+#### extrator de cálculos trabalhistas
 
-Pipeline em Python para leitura, classificação e validação de informações em documentos.
+lê planilhas de cálculo e decisões, descobre de qual parte é cada cálculo, extrai os valores e só libera o que passa numa validação contra um gabarito. nada é gravado sozinho: sai um relatório pra revisar.
 
-**Stack:** Python · pytest · Airtable API
+`Python` `pytest` `Airtable API`
 
-**privado por enquanto**
+<sub>privado por enquanto · dados 100% fictícios</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Publicar Projeto
+#### publicar projeto
 
-Skill para pegar projetos locais, sanitizar dados sensíveis e preparar uma versão segura antes de enviar para o GitHub.
+skill pro Claude Code que pega um projeto local, tira segredo e dado sensível, revisa imagem com OCR, faz o commit com e-mail noreply e só sobe pro GitHub depois de um `APROVADO`.
 
-**Stack:** Python · Git · GitHub CLI · OCR · segurança
+`Python` `Git` `GitHub CLI` `OCR` `AES-GCM`
 
-**privado por enquanto**
+<sub>privado por enquanto</sub>
 
 </td>
 </tr>
 </table>
 
-> alguns projetos nasceram de problemas reais do dia a dia. quando isso acontece, eu publico só versões com dados fictícios ou sanitizados.
+<sub>alguns projetos nasceram de problema real do dia a dia. quando isso acontece, aqui só entra versão com dado fictício ou sanitizado.</sub>
 
----
+<br><br>
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### > curto mexer com
+<img src="./assets/titulo-por-aqui.svg" height="26" alt="por aqui">
 
-Python  
-Automação  
-APIs  
-Integrações
+projetos pessoais, testes, automações e versões demonstrativas do que eu monto no dia a dia.
 
 </td>
 <td width="33%" valign="top">
 
-### > estudando
+<img src="./assets/titulo-estudando.svg" height="26" alt="estudando">
 
-Cybersecurity  
-Git/GitHub  
-Backend  
-Boas práticas
+cybersecurity<br>
+Git / GitHub<br>
+backend<br>
+boas práticas
 
 </td>
 <td width="33%" valign="top">
 
-### > por aqui
+<img src="./assets/titulo-areas.svg" height="26" alt="áreas atuais">
 
-projetos pessoais, testes, automações e versões demonstrativas do que eu construo no dia a dia.
+automação<br>
+APIs<br>
+backend<br>
+cybersecurity<br>
+Git / GitHub
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
 <p align="center">
   <sub>esse perfil ainda tá evoluindo junto comigo.</sub>
