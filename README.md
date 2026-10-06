@@ -113,5 +113,5 @@ IA aplicada a workflow
 <br>
 
 <p align="center">
-  <sub>esse perfil ainda tá evoluindo junto comigo.</sub>
+  <sub>aos poucos eu vou deixando isso menos vazio.</sub>
 </p>
