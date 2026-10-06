@@ -2,9 +2,8 @@
   <img src="./assets/banner.svg" alt="Samuel Rodrigues — Python, Automação e Cybersecurity" width="100%">
 </p>
 
-<h1 align="center">salve, eu sou o Samuel 👋</h1>
-
 <p align="center">
+  <b>salve, eu sou o Samuel 👋</b><br>
   curto automação, código e qualquer coisa que economize trabalho manual.
 </p>
 
@@ -14,43 +13,107 @@
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n">
   <img src="https://img.shields.io/badge/Airtable-18BFFF?style=flat-square&logo=airtable&logoColor=white" alt="Airtable">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
 </p>
 
 ---
 
-### sobre mim
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### > sobre
 
 Hoje eu mexo principalmente com **Python, automações, APIs e integrações**.
 
-Gosto de pegar processo repetitivo, planilha chata ou fluxo manual e tentar transformar em alguma coisa mais simples de usar.
+Gosto de pegar processo repetitivo, planilha chata ou fluxo manual e transformar em alguma coisa mais simples de usar.
 
 Também venho estudando mais sobre **cybersecurity**, Git/GitHub e desenvolvimento de software no geral.
 
-### o que costuma aparecer por aqui
+</td>
+<td width="50%" valign="top">
 
-- automações com Python e n8n
-- integrações com APIs
-- tratamento de documentos e dados
-- ferramentas para fluxo de trabalho
-- testes com IA aplicada a automação
-- projetos pessoais que eu invento no caminho
+### > agora
 
-### alguns projetos
+- automação e integrações
+- APIs e backend
+- tratamento de dados e documentos
+- Git/GitHub
+- cybersecurity
 
-**Extrator de cálculos trabalhistas**  
-Um pipeline em Python para ler documentos, classificar informações e separar o que pode ser validado do que ainda precisa de revisão.
+</td>
+</tr>
+</table>
 
-**Publicar Projeto**  
-Uma skill que eu fiz para pegar projetos locais, sanitizar dados sensíveis e preparar uma versão segura para colocar no GitHub.
+---
+
+## > projetos em destaque
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Extrator de cálculos trabalhistas
+
+Pipeline em Python para leitura, classificação e validação de informações em documentos.
+
+**Stack:** Python · pytest · Airtable API
+
+**privado por enquanto**
+
+</td>
+<td width="50%" valign="top">
+
+### Publicar Projeto
+
+Skill para pegar projetos locais, sanitizar dados sensíveis e preparar uma versão segura antes de enviar para o GitHub.
+
+**Stack:** Python · Git · GitHub CLI · OCR · segurança
+
+**privado por enquanto**
+
+</td>
+</tr>
+</table>
 
 > alguns projetos nasceram de problemas reais do dia a dia. quando isso acontece, eu publico só versões com dados fictícios ou sanitizados.
 
-### agora eu tô estudando
+---
 
-Python · APIs · Automação · Git/GitHub · Cybersecurity
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### > curto mexer com
+
+Python  
+Automação  
+APIs  
+Integrações
+
+</td>
+<td width="33%" valign="top">
+
+### > estudando
+
+Cybersecurity  
+Git/GitHub  
+Backend  
+Boas práticas
+
+</td>
+<td width="33%" valign="top">
+
+### > por aqui
+
+projetos pessoais, testes, automações e versões demonstrativas do que eu construo no dia a dia.
+
+</td>
+</tr>
+</table>
 
 ---
 
 <p align="center">
-  ainda arrumando esse perfil aos poucos :)
+  <sub>esse perfil ainda tá evoluindo junto comigo.</sub>
 </p>
