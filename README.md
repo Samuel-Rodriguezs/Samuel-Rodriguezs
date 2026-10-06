@@ -56,7 +56,7 @@ no tempo livre, tô indo mais fundo em **cybersecurity**.
 <tr>
 <td width="50%" valign="top">
 
-#### prumo
+#### Prumo
 <sub>extrator de cálculos trabalhistas</sub>
 
 lê planilhas de cálculo e decisões, descobre de qual parte é cada cálculo, extrai os valores e só libera o que passa numa validação contra um gabarito. nada é gravado sozinho: sai um relatório pra revisar.
@@ -68,7 +68,7 @@ lê planilhas de cálculo e decisões, descobre de qual parte é cada cálculo, 
 </td>
 <td width="50%" valign="top">
 
-#### passe limpo
+#### Passe Limpo
 <sub>publicação segura de projetos</sub>
 
 skill pro Claude Code que pega um projeto local, tira segredo e dado sensível, revisa imagem com OCR, faz o commit com e-mail noreply e só sobe pro GitHub depois de um `APROVADO`.
