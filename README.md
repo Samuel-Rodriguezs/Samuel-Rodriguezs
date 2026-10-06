@@ -1,64 +1,46 @@
-<h1 align="center">Samuel Rodrigues</h1>
+# Samuel Rodrigues
 
-<p align="center">
-  <strong>Automação • Python • Integrações • APIs</strong>
-</p>
+Curto resolver problema chato com código.
 
-<p align="center">
-  Desenvolvimento de ferramentas e automações para otimizar processos, integrar sistemas e transformar tarefas manuais em fluxos mais eficientes.
-</p>
+Hoje mexo principalmente com **Python, automação, APIs e integrações**, criando ferramentas para reduzir trabalho manual e organizar fluxos que antes dependiam de muita conferência na mão.
 
----
+## O que eu faço
 
-## 👨‍💻 Sobre mim
+- automações de tarefas repetitivas;
+- integração entre sistemas e APIs;
+- tratamento de dados e documentos;
+- scripts e ferramentas internas;
+- uso de IA em fluxos de trabalho.
 
-Desenvolvo automações e ferramentas voltadas para integração entre sistemas, tratamento de dados, documentos e otimização de fluxos de trabalho.
+## Stack que mais uso
 
-Atualmente estou aprofundando meus conhecimentos em desenvolvimento de software, APIs, automação e cybersecurity.
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?logo=n8n&logoColor=white)
+![Airtable](https://img.shields.io/badge/Airtable-18BFFF?logo=airtable&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
 
----
+## Projetos
 
-## 🛠️ Tecnologias
+Estou usando este GitHub para guardar projetos pessoais e versões demonstrativas de coisas que desenvolvo no dia a dia.
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
-  <img src="https://img.shields.io/badge/Airtable-18BFFF?style=for-the-badge&logo=airtable&logoColor=white" alt="Airtable">
-  <img src="https://img.shields.io/badge/Git-<SECRET>?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</p>
+Alguns projetos de trabalho passam por sanitização antes de aparecer aqui, então dados de clientes, processos, credenciais e informações internas ficam de fora.
 
----
+### Em destaque
 
-## 🚀 O que eu gosto de construir
+**Extrator de cálculos trabalhistas**  
+Pipeline em Python para leitura, classificação e validação de informações em documentos.
 
-- Automações de tarefas repetitivas
-- Integrações entre APIs e plataformas
-- Ferramentas para tratamento e organização de dados
-- Pipelines para documentos e arquivos
-- Soluções com IA aplicada a workflows
+**Publicar Projeto**  
+Uma skill para preparar cópias sanitizadas de projetos locais antes de enviar para o GitHub.
 
----
+## No momento
 
-## 📌 Projetos
+Estudando e praticando mais:
 
-Estou organizando neste perfil projetos pessoais e versões demonstrativas de soluções desenvolvidas por mim.
-
-Alguns projetos corporativos passam por um processo de sanitização antes de serem publicados, usando apenas dados fictícios ou anonimizados.
-
----
-
-## 📚 Atualmente estudando
-
-- Desenvolvimento de software
-- APIs REST
-- Automação
-- Cybersecurity
-- Boas práticas de Git e GitHub
-
----
-
-<p align="center">
-  <sub>Projetos corporativos publicados neste perfil não contêm dados reais de clientes, processos ou credenciais.</sub>
-</p>
+- Python
+- APIs
+- automação
+- Git/GitHub
+- cybersecurity
