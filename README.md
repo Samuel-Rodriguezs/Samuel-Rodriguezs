@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.svg" alt="Samuel Rodrigues — Python, Automação e Cybersecurity" width="100%">
+</p>
+
 <h1 align="center">salve, eu sou o Samuel 👋</h1>
 
 <p align="center">
