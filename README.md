@@ -115,3 +115,7 @@ IA aplicada a workflow
 <p align="center">
   <sub>aos poucos eu vou deixando isso menos vazio.</sub>
 </p>
+
+<p align="center">
+  <sub>© 2026 Samuel Rodrigues. Todos os direitos reservados. Os projetos deste perfil são disponibilizados apenas como portfólio; uso, cópia ou distribuição exigem autorização prévia do autor.</sub>
+</p>
