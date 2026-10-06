@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050508"/>
+      <stop offset="0.55" stop-color="#0b0712"/>
+      <stop offset="1" stop-color="#120822"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#d8b4fe"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" fill="none" stroke="#8b5cf6" stroke-opacity=".045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1600" height="420" rx="24" fill="url(#grid)"/>
+  <ellipse cx="800" cy="210" rx="600" ry="260" fill="url(#glow)"/>
+
+  <g opacity=".45" fill="#140c22">
+    <rect x="0" y="250" width="95" height="170"/><rect x="70" y="205" width="80" height="215"/>
+    <rect x="130" y="235" width="110" height="185"/><rect x="215" y="185" width="75" height="235"/>
+    <rect x="278" y="225" width="115" height="195"/><rect x="350" y="260" width="90" height="160"/>
+    <rect x="1180" y="245" width="120" height="175"/><rect x="1270" y="190" width="80" height="230"/>
+    <rect x="1340" y="220" width="105" height="200"/><rect x="1430" y="165" width="95" height="255"/>
+    <rect x="1510" y="230" width="90" height="190"/>
+  </g>
+
+  <g stroke="#8b5cf6" stroke-opacity=".28">
+    <path d="M0 345 C260 300 420 355 610 325 S980 295 1180 335 S1450 310 1600 325" fill="none"/>
+    <path d="M0 365 C280 330 420 382 650 350 S1030 325 1260 360 S1460 345 1600 350" fill="none"/>
+  </g>
+
+  <g fill="#a78bfa" opacity=".65" font-family="monospace" font-size="19" letter-spacing="4">
+    <text x="56" y="78">BUILD</text>
+    <text x="56" y="107">AUTOMATE</text>
+    <text x="56" y="136">SECURE</text>
+    <text x="56" y="165">EVOLVE</text>
+  </g>
+
+  <g fill="#c4b5fd" opacity=".6" font-family="monospace" font-size="17" letter-spacing="3">
+    <text x="1370" y="78">&gt; PYTHON</text>
+    <text x="1370" y="107">&gt; APIs</text>
+    <text x="1370" y="136">&gt; SECURITY</text>
+    <text x="1370" y="165">&gt; AUTOMATION</text>
+  </g>
+
+  <text x="800" y="205" text-anchor="middle" fill="url(#title)"
+        font-family="Arial, Helvetica, sans-serif" font-size="126" font-weight="800"
+        letter-spacing="24" filter="url(#softGlow)">SAMUEL</text>
+
+  <line x1="405" y1="252" x2="520" y2="252" stroke="#8b5cf6" stroke-width="2"/>
+  <line x1="1080" y1="252" x2="1195" y2="252" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="800" y="262" text-anchor="middle" fill="#ddd6fe"
+        font-family="Arial, Helvetica, sans-serif" font-size="23" letter-spacing="9">
+    PYTHON / AUTOMAÇÃO / CYBERSECURITY
+  </text>
+
+  <rect x="1" y="1" width="1598" height="418" rx="23" fill="none" stroke="#8b5cf6" stroke-opacity=".22"/>
+</svg>
