@@ -62,7 +62,7 @@ lê cálculos e decisões, descobre de qual parte vem cada um e extrai os valore
 </td>
 <td width="50%" valign="top">
 
-#### Passe Limpo
+#### [Passe Limpo](https://github.com/Samuel-Rodriguezs/Passe-Limpo)
 <sub>publicação segura de projetos</sub>
 
 skill pro Claude Code que limpa o projeto antes de publicar: tira dado sensível, lê imagens com OCR, commita com noreply e só sobe com `APROVADO`.
@@ -73,7 +73,7 @@ skill pro Claude Code que limpa o projeto antes de publicar: tira dado sensível
 </tr>
 </table>
 
-<sub>os dois estão privados por enquanto. nasceram de problema real do dia a dia, então aqui só entra versão com dado fictício ou sanitizado.</sub>
+<sub>o Prumo ainda tá privado. os dois nasceram de problema real do dia a dia, então aqui só entra versão com dado fictício ou sanitizado.</sub>
 
 <br><br>
 
