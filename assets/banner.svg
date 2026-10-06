@@ -56,7 +56,7 @@
 
   <rect x="388" y="228" width="824" height="1.5" fill="url(#horizonte)"/>
   <text x="800" y="276" text-anchor="middle" fill="#ddd6fe" fill-opacity=".9" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace"
-        font-size="23" letter-spacing="9">PYTHON / AUTOMAÇÃO / CYBERSECURITY</text>
+        font-size="27" letter-spacing="7">PYTHON / AUTOMAÇÃO / CYBERSECURITY</text>
 
   <text x="64" y="378" fill="#a78bfa" fill-opacity=".45" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="15" letter-spacing="2">~/samuel $ _</text>
 
