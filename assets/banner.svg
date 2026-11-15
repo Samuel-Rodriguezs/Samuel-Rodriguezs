@@ -1,64 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="420" viewBox="0 0 1600 420" role="img" aria-label="Samuel — Python, automação e cybersecurity">
-  <title>SAMUEL — PYTHON / AUTOMAÇÃO / CYBERSECURITY</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="320" viewBox="0 0 1600 320" role="img" aria-label="Samuel">
+  <title>SAMUEL</title>
   <defs>
-    <clipPath id="corte"><rect width="1600" height="420" rx="22"/></clipPath>
-    <radialGradient id="fundo" cx="0.5" cy="0.38" r="0.75">
-      <stop offset="0" stop-color="#150b26"/>
-      <stop offset="0.45" stop-color="#0a0612"/>
-      <stop offset="1" stop-color="#030305"/>
+    <clipPath id="corte"><rect width="1600" height="320" rx="22"/></clipPath>
+    <radialGradient id="fundo" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#1d1d1f"/>
+      <stop offset="0.5" stop-color="#0a0a0d"/>
+      <stop offset="1" stop-color="#050506"/>
     </radialGradient>
-    <radialGradient id="vinheta" cx="0.5" cy="0.45" r="0.72">
+    <radialGradient id="brasa" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b31217" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#b31217" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vinheta" cx="0.5" cy="0.5" r="0.72">
       <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
-      <stop offset="1" stop-color="#000" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".8"/>
     </radialGradient>
-    <radialGradient id="feixe" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".30"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="mascara-grade" cx="0.5" cy="0.45" r="0.55">
-      <stop offset="0" stop-color="#fff" stop-opacity="1"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </radialGradient>
-    <mask id="some"><rect width="1600" height="420" fill="url(#mascara-grade)"/></mask>
-    <pattern id="grade" width="44" height="44" patternUnits="userSpaceOnUse">
-      <path d="M44 0H0V44" fill="none" stroke="#8b5cf6" stroke-opacity=".07"/>
-    </pattern>
     <linearGradient id="nome" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f5f3ff"/>
-      <stop offset="0.6" stop-color="#c4b5fd"/>
-      <stop offset="1" stop-color="#8b5cf6"/>
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="0.6" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#e63946"/>
     </linearGradient>
-    <linearGradient id="horizonte" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#a78bfa" stop-opacity=".85"/>
-      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="brilho" x="-10%" y="-40%" width="120%" height="180%">
-      <feGaussianBlur stdDeviation="9"/>
-    </filter>
+    <filter id="brilho" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
     <filter id="grao" x="0" y="0" width="100%" height="100%">
       <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
       <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .035 0"/>
     </filter>
   </defs>
-
   <g clip-path="url(#corte)">
-    <rect width="1600" height="420" fill="url(#fundo)"/>
-    <rect width="1600" height="420" fill="url(#grade)" mask="url(#some)"/>
-    <ellipse cx="800" cy="154" rx="760" ry="120" fill="url(#feixe)"/>
-    <rect width="1600" height="420" filter="url(#grao)"/>
-    <rect width="1600" height="420" fill="url(#vinheta)"/>
+    <rect width="1600" height="320" fill="url(#fundo)"/>
+    <ellipse cx="800" cy="160" rx="620" ry="110" fill="url(#brasa)"/>
+    <rect width="1600" height="320" filter="url(#grao)"/>
+    <rect width="1600" height="320" fill="url(#vinheta)"/>
+    <rect x="1" y="1" width="1598" height="318" rx="21" fill="none" stroke="#e63946" stroke-opacity=".18"/>
   </g>
-
-  <path d="M 596.0 92.0 L 545.0 92.0 L 528.0 109.0 L 528.0 129.4 L 545.0 143.0 L 579.0 143.0 L 596.0 156.6 L 596.0 177.0 L 579.0 194.0 L 528.0 194.0 M 623.2 194.0 L 623.2 112.4 L 643.6 92.0 L 670.8 92.0 L 691.2 112.4 L 691.2 194.0 M 623.2 149.8 L 691.2 149.8 M 718.4 194.0 L 718.4 92.0 L 752.4 136.2 L 786.4 92.0 L 786.4 194.0 M 813.6 92.0 L 813.6 173.6 L 834.0 194.0 L 861.2 194.0 L 881.6 173.6 L 881.6 92.0 M 976.8 92.0 L 908.8 92.0 L 908.8 194.0 L 976.8 194.0 M 908.8 143.0 L 959.8 143.0 M 1004.0 92.0 L 1004.0 194.0 L 1072.0 194.0" fill="none" stroke="#8b5cf6" stroke-opacity=".45" stroke-width="10" filter="url(#brilho)"
-        stroke-linecap="square" stroke-linejoin="miter"/>
-  <path d="M 596.0 92.0 L 545.0 92.0 L 528.0 109.0 L 528.0 129.4 L 545.0 143.0 L 579.0 143.0 L 596.0 156.6 L 596.0 177.0 L 579.0 194.0 L 528.0 194.0 M 623.2 194.0 L 623.2 112.4 L 643.6 92.0 L 670.8 92.0 L 691.2 112.4 L 691.2 194.0 M 623.2 149.8 L 691.2 149.8 M 718.4 194.0 L 718.4 92.0 L 752.4 136.2 L 786.4 92.0 L 786.4 194.0 M 813.6 92.0 L 813.6 173.6 L 834.0 194.0 L 861.2 194.0 L 881.6 173.6 L 881.6 92.0 M 976.8 92.0 L 908.8 92.0 L 908.8 194.0 L 976.8 194.0 M 908.8 143.0 L 959.8 143.0 M 1004.0 92.0 L 1004.0 194.0 L 1072.0 194.0" fill="none" stroke="url(#nome)" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
-
-  <rect x="388" y="228" width="824" height="1.5" fill="url(#horizonte)"/>
-  <text x="800" y="276" text-anchor="middle" fill="#ddd6fe" fill-opacity=".9" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace"
-        font-size="27" letter-spacing="7">PYTHON / AUTOMAÇÃO / CYBERSECURITY</text>
-
-  <text x="64" y="378" fill="#a78bfa" fill-opacity=".45" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Courier New', monospace" font-size="15" letter-spacing="2">~/samuel $ _</text>
-
-  <rect x="1" y="1" width="1598" height="418" rx="21" fill="none" stroke="#8b5cf6" stroke-opacity=".18"/>
+  <g transform="translate(0,28)">
+    <path d="M 596.0 92.0 L 545.0 92.0 L 528.0 109.0 L 528.0 129.4 L 545.0 143.0 L 579.0 143.0 L 596.0 156.6 L 596.0 177.0 L 579.0 194.0 L 528.0 194.0 M 623.2 194.0 L 623.2 112.4 L 643.6 92.0 L 670.8 92.0 L 691.2 112.4 L 691.2 194.0 M 623.2 149.8 L 691.2 149.8 M 718.4 194.0 L 718.4 92.0 L 752.4 136.2 L 786.4 92.0 L 786.4 194.0 M 813.6 92.0 L 813.6 173.6 L 834.0 194.0 L 861.2 194.0 L 881.6 173.6 L 881.6 92.0 M 976.8 92.0 L 908.8 92.0 L 908.8 194.0 L 976.8 194.0 M 908.8 143.0 L 959.8 143.0 M 1004.0 92.0 L 1004.0 194.0 L 1072.0 194.0" fill="none" stroke="#e63946" stroke-opacity=".5" stroke-width="10" filter="url(#brilho)" stroke-linecap="square" stroke-linejoin="miter"/>
+    <path d="M 596.0 92.0 L 545.0 92.0 L 528.0 109.0 L 528.0 129.4 L 545.0 143.0 L 579.0 143.0 L 596.0 156.6 L 596.0 177.0 L 579.0 194.0 L 528.0 194.0 M 623.2 194.0 L 623.2 112.4 L 643.6 92.0 L 670.8 92.0 L 691.2 112.4 L 691.2 194.0 M 623.2 149.8 L 691.2 149.8 M 718.4 194.0 L 718.4 92.0 L 752.4 136.2 L 786.4 92.0 L 786.4 194.0 M 813.6 92.0 L 813.6 173.6 L 834.0 194.0 L 861.2 194.0 L 881.6 173.6 L 881.6 92.0 M 976.8 92.0 L 908.8 92.0 L 908.8 194.0 L 976.8 194.0 M 908.8 143.0 L 959.8 143.0 M 1004.0 92.0 L 1004.0 194.0 L 1072.0 194.0" fill="none" stroke="url(#nome)" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  </g>
 </svg>
